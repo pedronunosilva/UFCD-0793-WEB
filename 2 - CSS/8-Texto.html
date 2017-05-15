@@ -11,15 +11,17 @@
 
 <style>
 	
-	h1 { font: 12px arial; color: #0000ff}
-	h2 { font-weight: normal; font-style: italic; padding-bottom: 50px}
+	h1 {text-decoration:overline;}
+
+	h2 {text-decoration:line-through;}
 	
-	p { font-weight: bold; color: #CE491C; margin-left: 50px; line-height: 40% }
+	h3 {text-decoration:underline;}
 	
-	hr { border-color: red}
+	p.uppercase {text-transform:uppercase;}
 	
-	.direita { text-align: right }
-	.centro { text-align: center }
+	p.lowercase {text-transform:lowercase;}
+	
+	p.capitalize {text-transform:capitalize;}
 	
 </style>
 
@@ -27,16 +29,14 @@
 
 <body>
 
-<h1>Título nível 1</h1>
-<h2>Título nível 2</h2>
+	<h1>Título 1</h1>
+	<h2>Título 2</h2>
+	<h3>Título 3</h3>
 
-<p>Parágrafo</p>
-<p>Parágrafo2</p>
+	<p class="uppercase">Isto é um texto.</p>
+	<p class="lowercase">Isto é um texto.</p>
+	<p class="capitalize">Isto é um texto.</p>
 
-<hr />
-
-<p class="direita">Parágrafo3</p>
-<p class="centro">Parágrafo4</p>
 
 <!- Comentários ->
 
